@@ -61,3 +61,5 @@ When the loop ends, a performance chart is saved as `portfolio_performance.png`,
 - Track partial fills, order status, and real exchange API calls  
 - Expand to multiple assets or portfolio strategies  
 
+## Credits
+- [RBEAST Python Binding](https://github.com/zhaokg/Rbeast) – for trend detection and changepoint analysis
