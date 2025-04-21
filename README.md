@@ -7,6 +7,12 @@ Just learning data science cause exams delayed ig.
 ## 🚀 Overview
 This script fetches daily BTC/USDT prices from Binance, analyzes trends with RBEAST, applies common trading indicators (moving average, RSI), and executes simulated buy/sell orders with realistic slippage and fees. All capital remains virtual—no live orders or real money.
 
+### Mark-1
+Mark-1 used static trading rules based on Moving Average (MA) and Relative Strength Index (RSI) indicators. It would simply buy or sell BTC based on these technical signals without deeper market trend understanding. The system lacked change point detection or adaptive stop-loss mechanisms. It was faster but more prone to false trades due to noise.
+
+### Mark-2
+Mark-2 introduces Bayesian change point detection using Rbeast to identify strong trend shifts. It combines this with MA and RSI for smarter trade decisions based on confidence and direction. The version also adapts stop-loss and take-profit levels dynamically based on recent volatility. This makes the trading more strategic, reducing risk and improving decision accuracy.
+
 ## 🔍 Features
 - Real‑time OHLCV data via CCXT from Binance
 - Trend detection using BEAST (RBEAST Python binding)

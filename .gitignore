@@ -1,2 +1,4 @@
 venv/
-portfolio_performance.png
+*.png
+*.csv
+*.pkl
